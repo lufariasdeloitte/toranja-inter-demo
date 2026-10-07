@@ -1,40 +1,38 @@
 {
-  "name": "@adobe/aem-boilerplate",
+  "name": "aem-eds-inter-toranja",
+  "version": "3.1.2",
   "private": true,
-  "version": "1.3.0",
-  "description": "Starter project for Adobe Helix",
+  "type": "module",
+  "description": "Toranja EDS V3: 64 componentes oficiais, DS Toranja Custom e layouts editoriais",
+  "engines": {
+    "node": ">=22.12.0"
+  },
   "scripts": {
-    "lint:js": "eslint . --ext .json,.js,.mjs",
-    "lint:css": "stylelint \"blocks/**/*.css\" \"styles/*.css\"",
-    "lint": "npm run lint:js && npm run lint:css",
-    "lint:fix": "npm run lint:js -- --fix && npm run lint:css -- --fix",
-    "build:json": "npm-run-all -p build:json:models build:json:definitions build:json:filters",
-    "build:json:models": "merge-json-cli -i \"models/_component-models.json\" -o \"component-models.json\"",
-    "build:json:definitions": "merge-json-cli -i \"models/_component-definition.json\" -o \"component-definition.json\"",
-    "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
-    "prepare": "husky"
+    "build:json": "node tools/build-json.mjs",
+    "build:content": "node tools/normalize-content.mjs && node tools/render-content.mjs",
+    "build": "npm run build:ds-models && npm run build:json && npm run build:content && npm run build:runtime",
+    "preview": "npm run build && node tools/serve.mjs",
+    "check": "node tests/contracts.mjs",
+    "test": "npm run build && npm run check && npm run export:aem && python3 tools/audit-package.py && python3 tests/baseline-package.py && python3 tests/property-models.py && node tools/validate-v3.mjs",
+    "export:aem": "python3 tools/export-aem.py",
+    "inventory:ds": "node tools/inventory-ds.mjs",
+    "build:ds-models": "node tools/build-ds.mjs",
+    "build:runtime": "vite build && node tools/scope-runtime.mjs",
+    "test:ds": "node tests/ds-browser.mjs",
+    "test:acceptance": "node tests/acceptance.mjs",
+    "diagnose:eds": "node tools/diagnose-eds.mjs",
+    "test:v3": "node tests/v3.mjs && node tests/v3-content.mjs"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/adobe/aem-boilerplate.git"
-  },
-  "author": "Adobe",
-  "license": "Apache License 2.0",
-  "bugs": {
-    "url": "https://github.com/adobe/aem-boilerplate/issues"
-  },
-  "homepage": "https://github.com/adobe/aem-boilerplate#readme",
   "devDependencies": {
-    "@babel/eslint-parser": "7.28.6",
-    "eslint": "8.57.1",
-    "eslint-config-airbnb-base": "15.0.0",
-    "eslint-plugin-import": "2.32.0",
-    "eslint-plugin-json": "3.1.0",
-    "eslint-plugin-xwalk": "github:adobe-rnd/eslint-plugin-xwalk",
-    "husky": "9.1.1",
-    "merge-json-cli": "1.0.4",
-    "npm-run-all": "4.1.5",
-    "stylelint": "17.12.0",
-    "stylelint-config-standard": "40.0.0"
+    "playwright": "1.62.1",
+    "vite": "8.3.2",
+    "typescript": "5.7.2",
+    "@types/react": "18.3.18",
+    "@types/react-dom": "18.3.5",
+    "postcss": "8.5.28"
+  },
+  "dependencies": {
+    "react": "18.3.1",
+    "react-dom": "18.3.1"
   }
 }

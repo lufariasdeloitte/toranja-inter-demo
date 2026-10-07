@@ -1,3 +1,4 @@
+import {applySectionLayout} from './layout.js';
 /*
  * Copyright 2026 Adobe. All rights reserved.
  * This file is licensed to you under the Apache License, Version 2.0 (the "License");
@@ -509,6 +510,7 @@ function decorateSections(main) {
       });
       sectionMeta.parentNode.remove();
     }
+    applySectionLayout(section);
   });
 }
 
@@ -603,7 +605,7 @@ function decorateBlock(block) {
  * @param {Element} main The container element
  */
 function decorateBlocks(main) {
-  main.querySelectorAll('div.section > div > div').forEach(decorateBlock);
+  main.querySelectorAll('div.section > div:not(.layout-column) > div, div.section > .layout-column > div > div').forEach(decorateBlock);
 }
 
 /**
@@ -612,10 +614,7 @@ function decorateBlocks(main) {
  * @returns {Promise}
  */
 async function loadHeader(header) {
-  const headerBlock = buildBlock('header', '');
-  header.append(headerBlock);
-  decorateBlock(headerBlock);
-  return loadBlock(headerBlock);
+  return (await import('./site-shell.js')).loadShared(header,'nav');
 }
 
 /**
@@ -624,10 +623,7 @@ async function loadHeader(header) {
  * @returns {Promise}
  */
 async function loadFooter(footer) {
-  const footerBlock = buildBlock('footer', '');
-  footer.append(footerBlock);
-  decorateBlock(footerBlock);
-  return loadBlock(footerBlock);
+  return (await import('./site-shell.js')).loadShared(footer,'footer');
 }
 
 /**

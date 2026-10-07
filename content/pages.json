@@ -1,0 +1,695 @@
+{
+  "index": {
+    "title": "Toranja · experiências que conectam",
+    "description": "Componentes oficiais do Toranja em composições editáveis para Edge Delivery Services.",
+    "sections": [
+      {
+        "style": "hero-layout",
+        "layoutMode": "columns",
+        "layoutAlign": "center",
+        "layoutGap": "large",
+        "layoutPadding": "large",
+        "content": [
+          {
+            "block": "ds-text",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "TORANJA · DESIGN SYSTEM",
+              "p6173": "p",
+              "p7465787454797065": "body",
+              "p74657874576569676874": "regular",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-text",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "Uma experiência para cada momento.",
+              "p6173": "h1",
+              "p7465787454797065": "heading",
+              "p74657874576569676874": "regular",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-text",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "Explore como os componentes oficiais do Inter se combinam em páginas flexíveis, consistentes e prontas para a autoria.",
+              "p6173": "p",
+              "p7465787454797065": "body",
+              "p74657874576569676874": "regular",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-button",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Ver componentes",
+              "action6f6e436c69636bkind": "navigate",
+              "action6f6e436c69636blink": "/demo-toranja",
+              "action6f6e436c69636btarget": "_self",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Conhecer os layouts",
+              "p68726566": "/showcase/layouts",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-image",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7372632e6c6f63616c": "/assets/demo/11fa52f4aa2b.jpg",
+              "p636f6e74656e744465736372697074696f6e": "Uma pessoa em seu momento de independência",
+              "p636f6e74656e745363616c65": "fit",
+              "p726164697573": "large",
+              "classes_layoutColumn": "col-2"
+            },
+            "items": []
+          }
+        ]
+      },
+      {
+        "layoutPadding": "compact",
+        "content": [
+          {
+            "block": "ds-alert",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Ambiente de demonstração",
+              "p6465736372697074696f6e": "Conteúdo ilustrativo para explorar autoria e composição. Produtos, ofertas e textos precisam de aprovação editorial.",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "produtos",
+        "style": "columns-3",
+        "layoutAlign": "stretch",
+        "content": [
+          {
+            "text": "<p>POSSIBILIDADES</p><h2>Um sistema. Muitas composições.</h2><p>Blocos oficiais que combinam identidade, clareza e autonomia.</p>"
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Seu dia a dia, mais simples.</h3><p>Conta, pagamentos e organização financeira em uma experiência conectada.</p><p><a href=\"/conta-digital\">Conhecer a conta digital →</a></p>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Espaço para novos planos.</h3><p>Conteúdos e ações organizados para ajudar cada pessoa a encontrar seu próximo passo.</p><p><a href=\"/credito\">Explorar possibilidades →</a></p>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Uma vida sem fronteiras.</h3><p>Composições para apresentar soluções globais com imagens, textos e ações claras.</p><p><a href=\"/global-account\">Conhecer a Global Account →</a></p>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          }
+        ]
+      },
+      {
+        "id": "jornada",
+        "style": "hero-layout",
+        "content": [
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<p>Momento 01</p><h2>Vejo você conquistando a sua independência.</h2><p>Começar: Autonomia e Faculdade</p><p></p>",
+              "p7374617465": "enabled",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-image",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7372632e6c6f63616c": "/assets/demo/11fa52f4aa2b.jpg",
+              "p636f6e74656e744465736372697074696f6e": "Jovem Universitário",
+              "p636f6e74656e745363616c65": "fit",
+              "p726164697573": "large",
+              "classes_layoutColumn": "col-2"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-button",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Abra sua conta grátis",
+              "action6f6e436c69636bkind": "navigate",
+              "action6f6e436c69636blink": "/abra-sua-conta",
+              "action6f6e436c69636btarget": "_self",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          }
+        ],
+        "layoutGap": "large",
+        "layoutPadding": "large",
+        "layoutWidth": "standard",
+        "layoutMode": "columns",
+        "layoutAlign": "center",
+        "layoutBackground": "brand"
+      },
+      {
+        "id": "tabs",
+        "style": "",
+        "content": [
+          {
+            "text": "<p>Soluções para cada perfil</p><h2>Um Inter feito para cada momento</h2><p>Navegue pelas soluções desenhadas para pessoas físicas, empresas e patrimônios exclusivos.</p>"
+          },
+          {
+            "block": "ds-tabs",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7363726f6c6c61626c65": true,
+              "p7374617465": "enabled"
+            },
+            "items": [
+              {
+                "collection": "tabs",
+                "p6c6162656c": "Pessoa Física",
+                "p73656c6563746564": true,
+                "panelContent": "<h3>Conta Digital PF 100% Gratuita</h3><p>Pix sem tarifas, saques na rede Banco24Horas e cartão de débito internacional com programa de pontos Inter Loop.</p><p><strong><a href=\"/abra-sua-conta\">Abrir Conta PF</a></strong></p>"
+              },
+              {
+                "collection": "tabs",
+                "p6c6162656c": "Pessoa Jurídica (PJ)",
+                "p73656c6563746564": false,
+                "panelContent": "<h3>Gestão Financeira Completa para sua Empresa</h3><p>Emissão gratuita de boletos, folha de pagamento automática e maquininha com taxas sob medida.</p><p><strong><a href=\"/pj\">Abrir Conta PJ</a></strong></p>"
+              },
+              {
+                "collection": "tabs",
+                "p6c6162656c": "Global Account",
+                "p73656c6563746564": false,
+                "panelContent": "<h3>Sua Vida Financeira Global em Dólar</h3><p>Dólar comercial com IOF reduzido, compras internacionais e custódia em Wall Street com proteção FDIC de até US$ 250 mil.</p><p><strong><a href=\"/global\">Abrir Global Account</a></strong></p>"
+              },
+              {
+                "collection": "tabs",
+                "p6c6162656c": "Inter Win",
+                "p73656c6563746564": false,
+                "panelContent": "<h3>Wealth Management &amp; Family Office</h3><p>Para clientes com investimentos a partir de R$ 1 milhão. Banker dedicado, assessoria internacional e cartão exclusivo Win Mastercard Black.</p><p><strong><a href=\"/win\">Falar com um Banker</a></strong></p>"
+              }
+            ]
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "large",
+        "layoutWidth": "standard"
+      },
+      {
+        "id": "segmentos",
+        "style": "",
+        "content": [
+          {
+            "text": "<p>Segmentos de Atendimento</p><h2>Uma experiência sob medida para cada etapa do seu patrimônio</h2><p>Da conta digital gratuita até a assessoria internacional exclusiva de wealth management.</p>"
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h2>Uma experiência desenhada para o seu momento de vida</h2><p>Do dia a dia descomplicado ao Family Office global. Conheça as categorias exclusivas do Inter.</p>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Inter Digital",
+              "p6465736372697074696f6e": "Sem exigência de investimentos",
+              "p6368696c6472656e": "<h3>Mastercard Gold</h3><ul><li>Conta 100% digital e gratuita com Pix ilimitado</li><li>Cartão de crédito sem anuidade com cashback</li><li>Investimentos a partir de R$ 1 no Meu Porquinho</li><li>Acesso completo ao Inter Shop com cashback em compras</li></ul><p><a href=\"/abra-sua-conta\">Abrir Conta Digital</a></p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Inter One",
+              "p6465736372697074696f6e": "A partir de R$ 50 mil investidos",
+              "p6368696c6472656e": "<h3>Mastercard Platinum</h3><ul><li>Advisor de investimentos dedicado para a sua carteira</li><li>Cartão Mastercard Platinum com pontuação turbinada no Loop</li><li>Taxas de câmbio diferenciadas na Global Account</li><li>Atendimento prioritário 24 horas</li></ul><p><a href=\"/segmentos/one\">Quero ser Inter One</a></p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Inter Prime",
+              "p6465736372697074696f6e": "A partir de R$ 250 mil investidos",
+              "p6368696c6472656e": "<h3>Mastercard Black</h3><ul><li>Banker exclusivo e assessoria patrimonial personalizada</li><li>Cartão Mastercard Black com acesso a salas VIP LoungeKey</li><li>Pontuação máxima no Inter Loop (1 ponto a cada R$ 2,50)</li><li>Isenção de tarifas de corretagem e fundos exclusivos</li></ul><p><a href=\"/segmentos/prime\">Conhecer Inter Prime</a></p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Inter Win",
+              "p6465736372697074696f6e": "A partir de R$ 1 milhão investidos",
+              "p6368696c6472656e": "<h3>Mastercard Black Metal</h3><ul><li>Family Office, gestão patrimonial e planejamento sucessório</li><li>Cartão de Metal exclusivo com benefícios ultraluxo</li><li>Acesso a fundos offshore e investimentos em Wall Street</li><li>Concierge internacional e eventos de alta gastronomia</li></ul><p><a href=\"/segmentos/win\">Falar com um Banker Win</a></p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "standard",
+        "layoutWidth": "reading"
+      },
+      {
+        "id": "carrossel",
+        "style": "",
+        "content": [
+          {
+            "text": "<p>Vitrines em Destaque</p><h2>Benefícios que multiplicam seu dinheiro</h2><p>Arraste para o lado e conheça as novidades e vantagens exclusivas do ecossistema Inter.</p>"
+          },
+          {
+            "block": "ds-carousel",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p73686f7750726576696577": true,
+              "p706167655769647468": 340
+            },
+            "items": [
+              {
+                "collection": "items",
+                "p76616c7565": "<h3>Cartão Black sem Anuidade</h3><p>Acesso ilimitado a salas VIP LoungeKey e 1 ponto Loop a cada R$ 2,50 gastos no crédito.</p><p class=\"button-container\"><a class=\"button primary\" href=\"/cartoes\">Pedir Cartão</a></p>",
+                "slideKind": "card",
+                "slideAsset": "",
+                "slideDescription": ""
+              },
+              {
+                "collection": "items",
+                "p76616c7565": "<h3>CDB Mais Limite de Crédito</h3><p>O dinheiro guardado no CDB vira limite no seu cartão na mesma hora pelo app.</p><p class=\"button-container\"><a class=\"button\" href=\"/investimentos\">Investir Agora</a></p>",
+                "slideKind": "card",
+                "slideAsset": "",
+                "slideDescription": ""
+              },
+              {
+                "collection": "items",
+                "p76616c7565": "<h3>Câmbio com IOF de 1,1%</h3><p>Envie dinheiro para os EUA em segundos com cotação comercial e IOF reduzido.</p><p class=\"button-container\"><a class=\"button\" href=\"/global\">Abrir Global Account</a></p>",
+                "slideKind": "card",
+                "slideAsset": "",
+                "slideDescription": ""
+              },
+              {
+                "collection": "items",
+                "p76616c7565": "<h3>Financiamento Imobiliário</h3><p>Taxas sob medida com processo 100% digital e uso do saldo FGTS pelo celular.</p><p class=\"button-container\"><a class=\"button\" href=\"/credito\">Simular Taxas</a></p>",
+                "slideKind": "card",
+                "slideAsset": "",
+                "slideDescription": ""
+              }
+            ]
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "large",
+        "layoutWidth": "standard",
+        "layoutBackground": "neutral"
+      },
+      {
+        "id": "passo-a-passo",
+        "style": "",
+        "content": [
+          {
+            "text": "<p>Simplicidade Extrema</p><h2>Abra sua conta em 3 passos simples</h2><p>Processo 100% digital, sem filas de agência e sem burocracia.</p>"
+          },
+          {
+            "block": "ds-timeline",
+            "properties": {
+              "schemaVersion": "toranja-v3"
+            },
+            "items": [
+              {
+                "collection": "items",
+                "p7469746c65": "1. Baixe o Super App Inter",
+                "p64617465": "Etapa 1",
+                "p737461747573": "current"
+              },
+              {
+                "collection": "items",
+                "p7469746c65": "2. Validação Rápida e Segura",
+                "p64617465": "Etapa 2",
+                "p737461747573": "pending"
+              },
+              {
+                "collection": "items",
+                "p7469746c65": "3. Conta Pronta para Usar",
+                "p64617465": "Etapa 3",
+                "p737461747573": "pending"
+              }
+            ]
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "standard",
+        "layoutWidth": "reading"
+      },
+      {
+        "id": "faq",
+        "style": "",
+        "content": [
+          {
+            "text": "<p>Transparência Total</p><h2>Dúvidas Frequentes</h2><p>Respostas rápidas sobre segurança, abertura de conta e serviços internacionais.</p>"
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "A conta digital do Inter tem tarifas de manutenção?",
+              "p6368696c6472656e": "<p>Conteúdo demonstrativo. Preencha a resposta aprovada no Universal Editor.</p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Como funciona a Global Account em dólar?",
+              "p6368696c6472656e": "<p>Conteúdo demonstrativo. Preencha a resposta aprovada no Universal Editor.</p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Como funciona o CDB Mais Limite de Crédito?",
+              "p6368696c6472656e": "<p>Conteúdo demonstrativo. Preencha a resposta aprovada no Universal Editor.</p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          },
+          {
+            "block": "ds-accordion",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7469746c65": "Como conquistar o Cartão de Crédito Mastercard Black?",
+              "p6368696c6472656e": "<p>Conteúdo demonstrativo. Preencha a resposta aprovada no Universal Editor.</p>",
+              "p636f6e74656e7456617269616e74": "text",
+              "p73686f7744697669646572": true
+            },
+            "items": []
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "standard",
+        "layoutWidth": "reading"
+      },
+      {
+        "id": "autoria",
+        "style": "columns-67-33",
+        "layoutMode": "columns",
+        "layoutAlign": "center",
+        "layoutBackground": "brand",
+        "layoutPadding": "large",
+        "content": [
+          {
+            "block": "ds-text",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "Sua próxima página começa aqui.",
+              "p6173": "h2",
+              "p7465787454797065": "heading",
+              "p74657874576569676874": "regular",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-text",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "Escolha os componentes, organize as colunas e ajuste a composição no Universal Editor.",
+              "p6173": "p",
+              "p7465787454797065": "body",
+              "p74657874576569676874": "regular",
+              "classes_layoutColumn": "col-1"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-button",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Ver layouts",
+              "action6f6e436c69636bkind": "navigate",
+              "action6f6e436c69636blink": "/showcase/layouts",
+              "action6f6e436c69636btarget": "_self",
+              "classes_layoutColumn": "col-2"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Abrir catálogo oficial",
+              "p68726566": "/demo-toranja",
+              "classes_layoutColumn": "col-2"
+            },
+            "items": []
+          }
+        ]
+      }
+    ]
+  },
+  "nav": {
+    "title": "Navegação V3",
+    "sections": [
+      {
+        "style": "nav-row",
+        "content": [
+          {
+            "block": "ds-image",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p7372632e6c6f63616c": "/assets/brand/logo.svg",
+              "p636f6e74656e744465736372697074696f6e": "Banco Inter",
+              "p636f6e74656e745363616c65": "fit",
+              "p726164697573": "large"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Pra Você",
+              "p68726566": "/pra-voce",
+              "p73697a65": "small"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Empresas",
+              "p68726566": "/empresas/conta-pj",
+              "p73697a65": "small"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Segmentos",
+              "p68726566": "/#segmentos",
+              "p73697a65": "small"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Global Account",
+              "p68726566": "/global-account",
+              "p73697a65": "small"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Inter Loop",
+              "p68726566": "/inter-loop",
+              "p73697a65": "small"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-link",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Design System",
+              "p68726566": "/demo-toranja",
+              "p73697a65": "small"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-button",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Acessar conta",
+              "action6f6e436c69636bkind": "navigate",
+              "action6f6e436c69636blink": "https://internetbanking.bancointer.com.br",
+              "action6f6e436c69636btarget": "_blank",
+              "p73697a65": "small",
+              "p686965726172636879": "secondary"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-button",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6c6162656c": "Abra sua conta",
+              "action6f6e436c69636bkind": "navigate",
+              "action6f6e436c69636blink": "/abra-sua-conta",
+              "action6f6e436c69636btarget": "_self",
+              "p73697a65": "small"
+            },
+            "items": []
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "standard",
+        "layoutWidth": "standard"
+      }
+    ]
+  },
+  "footer": {
+    "title": "Rodapé V3",
+    "sections": [
+      {
+        "style": "footer-columns",
+        "content": [
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<p>\n            Inter. O Super App da sua vida financeira. Soluções completas e integradas para pessoas físicas e empresas no Brasil e no mundo.\n          </p>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Pra Você</h3><ul>\n<li><a href=\"/conta-digital\">Conta Digital Grátis</a></li>\n<li><a href=\"/cartoes\">Cartões Mastercard</a></li>\n<li><a href=\"/investimentos\">Meu Porquinho &amp; Invest</a></li>\n<li><a href=\"/credito\">Crédito &amp; Financiamento</a></li>\n<li><a href=\"/global-account\">Global Account (Dólar)</a></li>\n<li><a href=\"/inter-shop\">Inter Shop &amp; Cashback</a></li>\n<li><a href=\"/inter-loop\">Programa de Pontos Loop</a></li>\n</ul>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Empresas</h3><ul>\n<li><a href=\"/empresas/conta-pj\">Conta PJ Digital</a></li>\n<li><a href=\"/empresas/credito\">Crédito para Empresas</a></li>\n<li><a href=\"/empresas/maquininha\">Maquininha de Cartão</a></li>\n<li><a href=\"/empresas/folha\">Folha de Pagamento</a></li>\n<li><a href=\"/empresas/cambio\">Câmbio Comercial</a></li>\n</ul>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Institucional</h3><ul>\n<li><a href=\"/sobre\">Sobre o Inter</a></li>\n<li><a href=\"/ri\">Relações com Investidores</a></li>\n<li><a href=\"/carreiras\">Trabalhe Conosco</a></li>\n<li><a href=\"/imprensa\">Sala de Imprensa</a></li>\n<li><a href=\"/sustentabilidade\">Sustentabilidade &amp; ESG</a></li>\n</ul>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<h3>Ajuda &amp; Contato</h3><ul>\n<li><a href=\"/ajuda\">Central de Ajuda</a></li>\n<li><a href=\"/ouvidoria\">Ouvidoria: 0800 940 7772</a></li>\n<li><a href=\"/telefones\">Capitais: 3003 4070</a></li>\n<li><a href=\"/seguranca\">Segurança Digital</a></li>\n<li><a href=\"/termos\">Termos &amp; Privacidade</a></li>\n</ul>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "standard",
+        "layoutWidth": "standard"
+      },
+      {
+        "content": [
+          {
+            "block": "ds-text",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "Banco Inter S.A. — CNPJ: 00.416.968/0001-01. Av. Barbacena, 1219 - Santo Agostinho, Belo Horizonte - MG, CEP: 30190-131. Serviços de investimento oferecidos pela Inter DTVM Ltda. Nos EUA, contas correntes são oferecidas pelo Evolve Bank & Trust, membro FDIC. \n          Investimentos no exterior são oferecidos pela Inter Securities LLC, membro FINRA e SIPC. © 2026 Banco Inter S.A. Todos os direitos reservados.",
+              "p6173": "p",
+              "p7465787454797065": "body",
+              "p74657874576569676874": "regular"
+            },
+            "items": []
+          },
+          {
+            "block": "ds-card",
+            "properties": {
+              "schemaVersion": "toranja-v3",
+              "p6368696c6472656e": "<ul><li><a href=\"https://www.instagram.com/inter/\">Instagram</a></li><li><a href=\"https://www.linkedin.com/company/bancointer/\">LinkedIn</a></li></ul>",
+              "p7374617465": "enabled"
+            },
+            "items": []
+          }
+        ],
+        "layoutGap": "standard",
+        "layoutPadding": "standard",
+        "layoutWidth": "standard"
+      }
+    ]
+  }
+}

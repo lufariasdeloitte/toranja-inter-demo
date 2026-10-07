@@ -1,0 +1,52 @@
+[
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/",
+    "status": 200,
+    "finalURL": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/index",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/index.html",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/demo-toranja",
+    "status": 200,
+    "finalURL": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/demo-toranja"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.page/demo-toranja.html",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/",
+    "status": 200,
+    "finalURL": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/index",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/index.html",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/demo-toranja",
+    "status": 200,
+    "finalURL": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/demo-toranja"
+  },
+  {
+    "url": "https://main--toranja-inter-demo--lufariasdeloitte.aem.live/demo-toranja.html",
+    "status": 404,
+    "error": "HTTP Error 404: Not Found"
+  }
+]

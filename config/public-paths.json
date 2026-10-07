@@ -1,0 +1,7 @@
+{
+ "paths": {
+  "mappings": ["/content/toranja-inter-demo/:/", "/content/dam/toranja-eds-demo/:/assets/"],
+  "includes": ["/content/toranja-inter-demo/", "/content/dam/toranja-eds-demo/"],
+  "excludes": ["/content/toranja-inter-demo/**/drafts/**"]
+ }
+}
