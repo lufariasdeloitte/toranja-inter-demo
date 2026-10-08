@@ -6,7 +6,7 @@ Leia `docs/ATUALIZACAO-V3.1.2.md` para atualizar uma V3.1.1 existente. Esta atua
 
 Projeto XWalk para AEM Author + Universal Editor + Edge Delivery Services, em `/content/toranja-inter-demo`. Referência: **@interco/inter-toranja 1.13.3**, fornecida pelo usuário.
 
-## Escopo exato
+## Escopo exato.
 
 O catálogo possui **64/64 componentes oficiais** e quatro blocos funcionais no grupo **DS Toranja Custom**. Seção, texto padrão e os tipos de item são infraestrutura de autoria XWalk; não são apresentados como componentes adicionais do Toranja.
 
