@@ -1,4 +1,4 @@
-# Atualização V3.1.2 — calendário e tipografia
+﻿# Atualização V3.1.2 — calendário e tipografia
 
 Leia `docs/ATUALIZACAO-V3.1.2.md` para atualizar uma V3.1.1 existente. Esta atualização é de código/fontes; o pacote de conteúdo permanece 3.1.1 e não precisa ser reimportado. Evidências atuais: `docs/AUDITORIA-V3.1.2.html`. Relatórios com “baseline-final” referem-se à entrega anterior, salvo nova execução explícita.
 
@@ -23,7 +23,7 @@ O formulário está preparado para integração posterior, sem endpoint produtiv
 
 O conteúdo da Jornada é uma composição de componentes oficiais, sem reintrodução do bloco customizado `moments-journey`.
 
-## Layout e autoria
+## Layout e autoria.
 
 Selecione uma **Section** no Universal Editor para configurar layout, largura, espaçamento, alinhamento, fundo e ordem no mobile. Consulte `docs/AUTORIA-LAYOUTS.md` e visite `/showcase/layouts`.
 
